@@ -1,0 +1,38 @@
+htmlHeader:
+  type: noComponent
+  createAreaNode: false
+  templateScript: /mbt/templates/pages/areas/htmlHeader.ftl
+navigation:
+  type: noComponent
+  createAreaNode: false
+  templateScript: /mbt/templates/pages/areas/navigation.ftl
+  dialog: mbt:pages/areas/navigation
+breadcrumb:
+  type: noComponent
+  enabled: false
+  createAreaNode: false
+  templateScript: /mbt/templates/pages/areas/breadcrumb.ftl
+  dialog: mbt:pages/areas/breadcrumbs
+content:
+  type: list
+  availableComponents:
+    alert:
+      id: mbt:components/content/alert
+    gridLayout:
+      id: mbt:components/grid/gridLayout
+    accordionGroup:
+      id: mbt:components/content/accordionGroup
+    button:
+      id: mbt:components/content/button   
+    jumbotron:
+      id: mbt:components/content/jumbotron    
+    carousel:
+      id: mbt:components/content/carousel
+    cardWithHeaderAndFooter:
+      id: mbt:components/content/cardWithHeaderAndFooter
+    heading:
+      id: mbt:components/content/heading
+    linkGroup:
+      id: mbt:components/content/linkGroup
+    tabsContainer:
+      id: mbt:components/tabs/tabsContainer

@@ -1,0 +1,54 @@
+{
+  "_from": "magnolia-bootstrap-templates",
+  "_id": "magnolia-bootstrap-templates@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-jhodUe1/pfHywOkswLvU2yfaKerX8Vv0ux8QCv9BDXFsfAw7wofRo0W4HrlNOOU0ObSM7zHCQWQJ9jmvkc6llQ==",
+  "_location": "/magnolia-bootstrap-templates",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "magnolia-bootstrap-templates",
+    "name": "magnolia-bootstrap-templates",
+    "escapedName": "magnolia-bootstrap-templates",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/magnolia-bootstrap-templates/-/magnolia-bootstrap-templates-1.0.0.tgz",
+  "_shasum": "522349a33f78ccc574fcaf7a921561d85a75819f",
+  "_spec": "magnolia-bootstrap-templates",
+  "_where": "C:\\Users\\Ma Qi Chao\\Desktop\\dxpa",
+  "author": {
+    "name": "dragan.velkovski",
+    "email": "draganvelkovski77@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/dragan777/mbt/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Magnolia CMS light module with components from bootstrap",
+  "homepage": "https://github.com/dragan777/mbt#readme",
+  "keywords": [
+    "magnolia-cms",
+    "bootstrap",
+    "magnolia-light-module",
+    "magnolia-templates"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "magnolia-bootstrap-templates",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragan777/mbt.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

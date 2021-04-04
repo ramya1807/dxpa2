@@ -1,0 +1,9 @@
+templateScript: /mbt/templates/components/content/linkGroup.ftl
+dialog: mbt:components/content/genericSectionGroup
+renderType: freemarker
+areas:
+
+  links:
+    availableComponents:
+      linklist:
+        id: mbt:components/content/link

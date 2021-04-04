@@ -1,0 +1,33 @@
+form:
+  tabs:
+    - name: tabContent
+      label: tabs.content
+      fields:
+        - name: brand
+          fieldType: switchable
+          class: info.magnolia.ui.form.field.definition.SwitchableFieldDefinition
+          options:
+            - name: text
+              selected: true
+              value: text
+            - name: image
+              value: image
+          fields:
+            - name: text
+              fieldType: text
+              class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            - !include:/mbt/includes/dialogs/fields/imageField.yaml
+    - name: tabStyle
+      label: tabs.tabStyle
+      fields:
+
+        - !include:/mbt/includes/dialogs/fields/colorField.yaml
+        - !include:/mbt/includes/dialogs/fields/containerWidthField.yaml
+        - name: fixedTop
+          class: info.magnolia.ui.form.field.definition.CheckboxFieldDefinition
+          defaultValue: false
+          i18n: false
+          type: Boolean
+
+actions:
+  !include:/mbt/includes/dialogs/defaultActions.yaml

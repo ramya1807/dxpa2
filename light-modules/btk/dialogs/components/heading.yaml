@@ -1,0 +1,32 @@
+form:
+  label: Heading
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+        - !include:/btk/includes/dialogs/text.yaml
+          required: true
+    - name: tabStyle
+      label: Style
+      fields:
+        - name: level
+          fieldType: select
+          label: Level
+          options:
+            - value: 1
+              selected: true
+              label: 1
+            - value: 2
+              label: 2
+            - value: 3
+              label: 3
+            - value: 4
+              label: 4
+            - value: 5
+              label: 5
+            - value: 6
+              label: 6
+        - !include:/btk/includes/dialogs/class.yaml
+        - !include:/btk/includes/dialogs/css.yaml
+
+actions: !include:/btk/includes/dialogs/actions.yaml

@@ -1,0 +1,12 @@
+title: Page [#btk]
+renderType: freemarker
+templateScript: /btk/templates/pages/index.ftl
+dialog: btk:pages/index
+visible: true
+areas:
+  breadcrumb: !include:/btk/includes/areas/breadcrumb.yaml
+  main:
+    availableComponents:
+      row:
+        id: btk:components/row/row
+  footer: !include:/btk/includes/areas/footer.yaml

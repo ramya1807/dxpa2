@@ -1,0 +1,5 @@
+name: text
+class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+label: field.text
+i18n: true
+rows: 5

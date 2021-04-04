@@ -1,0 +1,4 @@
+title: Jumbotron
+renderType: freemarker
+templateScript: /btk/templates/components/jumbotron/jumbotron.ftl
+dialog: btk:components/jumbotron

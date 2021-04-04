@@ -1,0 +1,10 @@
+templateScript: /mbt/templates/components/content/accordionGroup.ftl
+dialog: mbt:components/content/genericSectionGroup
+renderType: freemarker
+areas:
+
+  accordions:
+    availableComponents:
+      accordion:
+        id: mbt:components/content/accordion 
+ 

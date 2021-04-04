@@ -1,0 +1,33 @@
+templateScript: /mbt/templates/components/grid/gridLayout.ftl
+dialog: mbt:components/grid/gridLayout
+
+renderType: freemarker
+areas:
+
+  column1: &column1
+    dialog: mbt:components/grid/column
+    templateScript: /mbt/templates/components/grid/columnArea.ftl
+    type: list
+    availableComponents:
+      alert:
+        id: mbt:components/content/alert
+      accordionGroup:
+        id: mbt:components/content/accordionGroup
+      button:
+        id: mbt:components/content/button
+      jumbotron:
+        id: mbt:components/content/jumbotron
+      carousel:
+        id: mbt:components/content/carousel
+      card:
+        id: mbt:components/content/card
+      cardWithHeaderAndFooter:
+        id: mbt:components/content/cardWithHeaderAndFooter
+      heading:
+        id: mbt:components/content/heading
+
+  column2: *column1
+  column3: *column1
+  column4: *column1
+  column5: *column1
+  column6: *column1

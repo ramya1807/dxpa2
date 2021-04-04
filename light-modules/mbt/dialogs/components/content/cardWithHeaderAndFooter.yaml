@@ -1,0 +1,35 @@
+form:
+  label: mbt.templates.components.content.cardWithHeaderAndFooter
+  tabs:
+    - name: body
+      fields:
+        - !include:/mbt/includes/dialogs/fields/titleField.yaml
+        - !include:/mbt/includes/dialogs/fields/alignmentField.yaml
+          name: alignmentBody
+        - !include:/mbt/includes/dialogs/fields/richTextField.yaml
+        - !include:/mbt/includes/dialogs/fields/linkSwitchableField.yaml
+        - !include:/mbt/includes/dialogs/fields/linkTextField.yaml
+        - !include:/mbt/includes/dialogs/fields/colorField.yaml
+          label: link.color
+    - name: header
+      fields:
+        - !include:/mbt/includes/dialogs/fields/titleField.yaml
+          name: headerText
+          label: field.text
+        - !include:/mbt/includes/dialogs/fields/alignmentField.yaml
+
+
+
+    - name: footer
+      fields:
+       - !include:/mbt/includes/dialogs/fields/titleField.yaml
+         name: footerText
+         label: field.text
+       - !include:/mbt/includes/dialogs/fields/alignmentField.yaml
+         name: alignmentFooter
+    - !include:/mbt/includes/dialogs/tabs/spacingTab.yaml
+actions:
+  !include:/mbt/includes/dialogs/defaultActions.yaml
+
+
+

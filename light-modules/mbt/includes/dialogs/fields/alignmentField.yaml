@@ -1,0 +1,17 @@
+name: alignment
+fieldType: select
+label: field.alignment
+options:
+  - name: left
+    value: left
+    selected: true
+    label: field.alignment.left
+  - name: right
+    value: right
+    label: field.alignment.right
+  - name: center
+    value: center
+    label: field.alignment.center
+  - name: justify
+    value: justify
+    label: field.alignment.justify

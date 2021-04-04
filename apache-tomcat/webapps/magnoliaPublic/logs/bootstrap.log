@@ -1,0 +1,21 @@
+INFO  02.04.2021 22:49:41  Trying to initialize repositories from: 
+    C:\Users\Ma Qi Chao\Desktop\magnolia\apache-tomcat\webapps\magnoliaPublic\WEB-INF\bootstrap\public
+    C:\Users\Ma Qi Chao\Desktop\magnolia\apache-tomcat\webapps\magnoliaPublic\WEB-INF\bootstrap\common
+INFO  02.04.2021 22:49:42  Repository [dam] has been initialized.
+INFO  02.04.2021 22:49:42  Repository [keystore] has been initialized.
+INFO  02.04.2021 22:49:42  Repository [usergroups] has been initialized.
+INFO  02.04.2021 22:49:42  Repository [magnolia-mgnlSystem] has been initialized.
+INFO  02.04.2021 22:49:42  Repository [scripts] has been initialized.
+INFO  02.04.2021 22:49:42  Repository [website] has been initialized.
+INFO  02.04.2021 22:49:42  Repository [magnolia-mgnlVersion] has been initialized.
+INFO  02.04.2021 22:49:42  Repository [userroles] has been initialized.
+INFO  02.04.2021 22:49:42  Repository [profiles] has been initialized.
+INFO  02.04.2021 22:49:42  Repository [users] has been initialized.
+INFO  02.04.2021 22:49:42  Repository [tasks] has been initialized.
+INFO  02.04.2021 22:49:42  Repository [imaging] has been initialized.
+INFO  02.04.2021 22:49:42  Repository [category] has been initialized.
+INFO  02.04.2021 22:49:42  Repository [rss] has been initialized.
+INFO  02.04.2021 22:49:42  Repository [default] has been initialized.
+INFO  02.04.2021 22:49:42  Repository [resources] has been initialized.
+INFO  02.04.2021 22:49:42  Repository [messages] has been initialized.
+INFO  02.04.2021 22:49:42  Repository [config] has been initialized.

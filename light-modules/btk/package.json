@@ -1,0 +1,82 @@
+{
+  "_from": "btk",
+  "_id": "btk@2.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-qirPYVGM0zvFPNDEkVpVGt1voof6oXAwcQPkikESpV3RradsdXCD0LBeon9pncDpKtxXWAhAInoWN/W2ahn/1Q==",
+  "_location": "/btk",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "btk",
+    "name": "btk",
+    "escapedName": "btk",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/btk/-/btk-2.0.1.tgz",
+  "_shasum": "947ff70c5bb7d79a8559e058edee76bac83160d3",
+  "_spec": "btk",
+  "_where": "C:\\Users\\Ma Qi Chao\\Desktop\\magnolia",
+  "bundleDependencies": false,
+  "config": {
+    "src": "webresources-src",
+    "build": "webresources"
+  },
+  "contributors": [
+    {
+      "name": "Tomáš Gregovský",
+      "email": "tomas.gregovsky@magnolia-cms.com"
+    },
+    {
+      "name": "Bartosz Staryga",
+      "email": "bartosz.staryga@magnolia-cms.com"
+    }
+  ],
+  "deprecated": false,
+  "description": "BTK is a light module for Magnolia CMS with a basic set of templates ideal to start new website project based on Bootstrap framework.",
+  "devDependencies": {
+    "autoprefixer": "^9.6.0",
+    "clean-css-cli": "^4.3.0",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0",
+    "popper.js": "^1.15.0",
+    "postcss": "^7.0.17",
+    "postcss-cli": "^6.1.2",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.4"
+  },
+  "homepage": "https://git.magnolia-cms.com/projects/LIGHT-MODULES/repos/btk/browse/README.md",
+  "keywords": [
+    "magnolia",
+    "magnolia-cms",
+    "magnolia-light-module",
+    "magnolia-kit",
+    "magnolia-templating-kit",
+    "bootstrap",
+    "bootstrap-kit",
+    "bootstrap-templating-kit",
+    "light-module"
+  ],
+  "license": "MIT",
+  "name": "btk",
+  "repository": {
+    "type": "git",
+    "url": "https://git.magnolia-cms.com/projects/LIGHT-MODULES/repos/btk/"
+  },
+  "scripts": {
+    "build": "npm run css && npm run js",
+    "css": "npm run css-compile && npm run css-prefix && npm run css-minify && npm run css-clean",
+    "css-clean": "find $npm_package_config_build/css/ -type f -not -name \"*.min.css\" -delete",
+    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 $npm_package_config_src/scss/index.scss $npm_package_config_build/css/index.css",
+    "css-minify": "cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output $npm_package_config_build/css/index.min.css $npm_package_config_build/css/index.css",
+    "css-prefix": "postcss --config $npm_package_config_src/postcss.config.js --replace \"$npm_package_config_build/css/*.css\" \"!$npm_package_config_build/css/*.min.css\"",
+    "js": "webpack --env.SRC=$npm_package_config_src  --env.BUILD=$npm_package_config_build"
+  },
+  "version": "2.0.1"
+}

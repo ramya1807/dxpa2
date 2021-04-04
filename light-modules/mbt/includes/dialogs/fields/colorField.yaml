@@ -1,0 +1,33 @@
+name: color
+fieldType: select
+sortOptions: false
+class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+options:
+  - name: default
+    value: default
+    label: field.color.default
+    selected: true
+  - name: primary
+    value: primary
+    label: field.color.primary
+  - name: secondary
+    value: secondary
+    label: field.color.secondary
+  - name: success
+    label: field.color.success
+    value: success
+  - name: danger
+    value: danger
+    label: field.color.danger
+  - name: info
+    value: info
+    label: field.color.info
+  - name: warning
+    value: warning
+    label: field.color.warning
+  - name: light
+    label: field.color.light
+    value: light
+  - name: dark
+    value: dark
+    label: field.color.dark

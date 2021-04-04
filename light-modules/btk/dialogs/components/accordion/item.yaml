@@ -1,0 +1,12 @@
+form:
+  label: Item
+  tabs:
+    - name: tabText
+      label: Main
+      fields:
+        - !include:/btk/includes/dialogs/heading.yaml
+          required: true
+        - !include:/btk/includes/dialogs/body.yaml
+          required: true
+
+actions: !include:/btk/includes/dialogs/actions.yaml

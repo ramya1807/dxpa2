@@ -1,0 +1,19 @@
+form:
+  label: Modal
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+        - !include:/btk/includes/dialogs/btnText.yaml
+          required: true
+        - !include:/btk/includes/dialogs/heading.yaml
+          required: true
+        - !include:/btk/includes/dialogs/body.yaml
+          required: true
+    - name: tabStyle
+      label: Style
+      fields:
+        - !include:/btk/includes/dialogs/class.yaml
+        - !include:/btk/includes/dialogs/css.yaml
+
+actions: !include:/btk/includes/dialogs/actions.yaml

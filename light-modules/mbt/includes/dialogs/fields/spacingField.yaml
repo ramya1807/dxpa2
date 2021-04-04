@@ -1,0 +1,23 @@
+name: spacing
+fieldType: select
+label: field.spacing
+options:
+  - name: 0
+    value: 0
+    label: 0
+  - name: 1
+    value: 1
+    selected: true
+    label: 1
+  - name: 2
+    value: 2
+    label: 2
+  - name: 3
+    value: 3
+    label: 3
+  - name: 4
+    value: 4
+    label: 4
+  - name: 5
+    value: 5
+    label: 5

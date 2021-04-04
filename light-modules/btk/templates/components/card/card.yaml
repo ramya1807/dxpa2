@@ -1,0 +1,4 @@
+title: Card
+renderType: freemarker
+templateScript: /btk/templates/components/card/card.ftl
+dialog: btk:components/card

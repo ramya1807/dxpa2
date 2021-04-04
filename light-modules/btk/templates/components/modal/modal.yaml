@@ -1,0 +1,4 @@
+title: Modal
+renderType: freemarker
+templateScript: /btk/templates/components/modal/modal.ftl
+dialog: btk:components/modal

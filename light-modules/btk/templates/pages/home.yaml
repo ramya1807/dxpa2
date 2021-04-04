@@ -1,0 +1,20 @@
+title: Home [#btk]
+renderType: freemarker
+templateScript: /btk/templates/pages/index.ftl
+dialog: btk:pages/index
+visible: true
+areas:
+  header:
+    availableComponents:
+      jumbotron:
+        id: btk:components/jumbotron/jumbotron
+      carousel:
+        id: btk:components/carousel/carousel
+  main:
+    availableComponents:
+      row:
+        id: btk:components/row/row
+  footer:
+    availableComponents:
+      row:
+        id: btk:components/row/row

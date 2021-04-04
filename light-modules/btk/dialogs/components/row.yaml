@@ -1,0 +1,26 @@
+form:
+  label: Row
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+        - name: layout
+          fieldType: select
+          label: Layout
+          options:
+            - label: 100%
+              value: 12
+              selected: true
+            - label: 50% + 50%
+              value: 6 6
+            - label: 33% + 33% + 33%
+              value: 4 4 4
+            - label: 33% + 66%
+              value: 4 8
+    - name: tabStyle
+      label: Style
+      fields:
+        - !include:/btk/includes/dialogs/class.yaml
+        - !include:/btk/includes/dialogs/css.yaml
+
+actions: !include:/btk/includes/dialogs/actions.yaml

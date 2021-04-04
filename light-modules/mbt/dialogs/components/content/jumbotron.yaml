@@ -1,0 +1,26 @@
+form:
+  tabs:
+    - name: text
+      fields:
+      - !include:/mbt/includes/dialogs/fields/titleField.yaml
+      - !include:/mbt/includes/dialogs/fields/textField.yaml
+      - !include:/mbt/includes/dialogs/fields/colorField.yaml
+        name: bgColor
+      - !include:/mbt/includes/dialogs/fields/containerWidthField.yaml
+        options:
+          - name: noContainer
+            value: ""
+            label: No container
+            selected: true
+
+    - name: link
+      fields:
+        - !include:/mbt/includes/dialogs/fields/linkTextField.yaml
+        - !include:/mbt/includes/dialogs/fields/colorField.yaml
+          label: field.link.color
+          name: linkColor
+        - !include:/mbt/includes/dialogs/fields/linkSwitchableField.yaml
+    - !include:/mbt/includes/dialogs/tabs/spacingTab.yaml
+actions:
+  !include:/mbt/includes/dialogs/defaultActions.yaml
+

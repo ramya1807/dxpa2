@@ -1,0 +1,12 @@
+name: containerWidth
+fieldType: select
+label: field.containerWidth
+class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+options:
+  - name: wide
+    value: container-fluid
+    label: field.layoutStyle.wide
+    selected: true
+  - name: boxed
+    value: container
+    label: field.layoutStyle.boxed

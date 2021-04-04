@@ -1,0 +1,10 @@
+form:
+  tabs:
+    - name: tabContent
+      fields:
+        - !include /mbt/includes/dialogs/fields/titleField.yaml
+
+actions:
+  !include:/mbt/includes/dialogs/defaultActions.yaml
+
+

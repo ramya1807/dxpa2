@@ -1,0 +1,9 @@
+templateScript: /mbt/templates/pages/main.ftl
+renderType: freemarker
+dialog: mbt:pages/home
+visible: true
+type: home
+areas:
+  !include:/mbt/includes/areas/common-areas.yaml
+  breadcrumb:
+    enabled: false

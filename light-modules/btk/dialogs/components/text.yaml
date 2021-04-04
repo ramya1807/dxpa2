@@ -1,0 +1,16 @@
+form:
+  label: Text
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+        - name: text
+          fieldType: richText
+          label: Text
+    - name: tabStyle
+      label: Style
+      fields:
+        - !include:/btk/includes/dialogs/class.yaml
+        - !include:/btk/includes/dialogs/css.yaml
+
+actions: !include:/btk/includes/dialogs/actions.yaml

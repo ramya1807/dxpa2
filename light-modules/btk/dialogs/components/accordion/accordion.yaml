@@ -1,0 +1,12 @@
+form:
+  label: Accordion
+  tabs:
+    - name: tabText
+      label: Main
+      fields:
+        - name: groupManagement
+          fieldType: checkbox
+          label: Group Management
+          buttonLabel: Add accordion-like group management to a collapsible area
+
+actions: !include:/btk/includes/dialogs/actions.yaml

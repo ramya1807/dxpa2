@@ -1,0 +1,9 @@
+form:
+  tabs:
+    - name: tabStylenavbar-brand
+      label: tabs.tabStyle
+      fields:
+        - !include:/mbt/includes/dialogs/fields/containerWidthField.yaml
+
+actions:
+  !include:/mbt/includes/dialogs/defaultActions.yaml

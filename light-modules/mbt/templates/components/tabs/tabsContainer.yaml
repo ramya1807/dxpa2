@@ -1,0 +1,38 @@
+templateScript: /mbt/templates/components/tabs/tabsContainer.ftl
+renderType: freemarker
+dialog: mbt:components/tabs/tabsContainer
+renderType: freemarker
+areas:
+  tab1: &tab1
+    dialog: mbt:components/tabs/singleTab
+    type: list
+    availableComponents:
+      alert:
+        id: mbt:components/content/alert
+      gridLayout:
+        id: mbt:components/grid/gridLayout
+      accordionGroup:
+        id: mbt:components/content/accordionGroup
+      button:
+        id: mbt:components/content/button
+      jumbotron:
+        id: mbt:components/content/jumbotron
+      carousel:
+        id: mbt:components/content/carousel
+      card:
+        id: mbt:components/content/card
+      cardWithHeaderAndFooter:
+        id: mbt:components/content/cardWithHeaderAndFooter
+      heading:
+        id: mbt:components/content/heading
+      linkGroup:
+        id: mbt:components/content/linkGroup
+
+  tab2: *tab1
+  tab3: *tab1
+  tab4: *tab1
+  tab5: *tab1
+  tab6: *tab1
+  tab7: *tab1
+  tab8: *tab1
+

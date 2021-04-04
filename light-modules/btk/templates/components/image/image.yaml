@@ -1,0 +1,4 @@
+title: Image
+renderType: freemarker
+templateScript: /btk/templates/components/image/image.ftl
+dialog: btk:components/image

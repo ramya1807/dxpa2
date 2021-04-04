@@ -1,0 +1,4 @@
+title: Item
+renderType: freemarker
+templateScript: /btk/templates/components/carousel/item.ftl
+dialog: btk:components/carousel/item

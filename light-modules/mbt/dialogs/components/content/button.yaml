@@ -1,0 +1,15 @@
+form:
+  tabs:
+    - name: titletext
+      fields:
+        - !include:/mbt/includes/dialogs/fields/linkTextField.yaml
+        - !include:/mbt/includes/dialogs/fields/colorField.yaml
+          label: field.link.color
+          name: buttonColor
+        - !include:/mbt/includes/dialogs/fields/linkSwitchableField.yaml
+       
+
+
+actions:
+  !include:/mbt/includes/dialogs/defaultActions.yaml
+

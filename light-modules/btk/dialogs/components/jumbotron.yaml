@@ -1,0 +1,16 @@
+form:
+  label: Jumbotron
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+        - name: title
+          fieldType: text
+          label: Title
+        - name: lead
+          fieldType: text
+          label: Lead
+        - !include:/btk/includes/dialogs/btnText.yaml
+        - !include:/btk/includes/dialogs/link.yaml
+
+actions: !include:/btk/includes/dialogs/actions.yaml

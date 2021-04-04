@@ -1,0 +1,32 @@
+form:
+  label: Page
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+        - name: pageTitle
+          fieldType: text
+          label: Page title
+        - name: navTitle
+          fieldType: text
+          label: Navigation title
+        - name: hideInNav
+          fieldType: checkbox
+          label: Navigation
+          buttonLabel: Do not show in navigation
+        - name: windowTitle
+          fieldType: text
+          label: Window title
+    - name: tabMetaData
+      label: Meta Data
+      fields:
+        - name: description
+          fieldType: text
+          label: Description
+          rows: 3
+        - name: keywords
+          fieldType: text
+          label: Keywords
+          rows: 3
+
+actions: !include:/btk/includes/dialogs/actions.yaml

@@ -1,0 +1,42 @@
+form:
+  label: mbt.templates.components.content.card
+  tabs:
+    - name: tabMain
+      label: tabs.tabMain
+      fields:
+        - !include:/mbt/includes/dialogs/fields/titleField.yaml
+        - !include:/mbt/includes/dialogs/fields/textField.yaml
+        - !include:/mbt/includes/dialogs/fields/imageField.yaml
+        - !include:/mbt/includes/dialogs/fields/linkSwitchableField.yaml
+        - !include:/mbt/includes/dialogs/fields/linkTextField.yaml
+        - !include:/mbt/includes/dialogs/fields/colorField.yaml
+          label: field.link.color
+    - name: tabStyle
+      label: tabs.tabStyle
+      fields:
+        - !include:/mbt/includes/dialogs/fields/colorField.yaml
+          label: field.bgColor
+          name: bgColor
+        - !include:/mbt/includes/dialogs/fields/colorField.yaml
+          label: field.textColor
+          name: textColor
+        - !include:/mbt/includes/dialogs/fields/colorField.yaml
+          label: field.link.color
+          name: buttonColor
+        - !include:/mbt/includes/dialogs/fields/alignmentField.yaml
+        - name: imagePosition
+          fieldType: select
+          label: field.imagePosition
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          options:
+            - name: top
+              value: top
+              label: field.imagePosition.top
+              selected: true
+            - name: bottom
+              value: bottom
+              label: field.imagePosition.bottom
+
+
+actions:
+  !include:/mbt/includes/dialogs/defaultActions.yaml

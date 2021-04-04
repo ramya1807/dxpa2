@@ -1,0 +1,4 @@
+name: linkText
+class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+label: field.linkText
+i18n: true

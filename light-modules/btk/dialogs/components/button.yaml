@@ -1,0 +1,39 @@
+form:
+  label: Button
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+        - !include:/btk/includes/dialogs/link.yaml
+        - !include:/btk/includes/dialogs/text.yaml
+          required: true
+    - name: tabStyle
+      label: Style
+      fields:
+        - name: style
+          fieldType: select
+          label: Style
+          options:
+            - label: Primary
+              value: primary
+              selected: true
+            - label: Secondary
+              value: secondary
+            - label: Success
+              value: success
+            - label: Danger
+              value: danger
+            - label: Warning
+              value: warning
+            - label: Info
+              value: info
+            - label: Light
+              value: light
+            - label: Dark
+              value: dark
+            - label: Link
+              value: link
+        - !include:/btk/includes/dialogs/class.yaml
+        - !include:/btk/includes/dialogs/css.yaml
+
+actions: !include:/btk/includes/dialogs/actions.yaml

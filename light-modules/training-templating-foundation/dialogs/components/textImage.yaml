@@ -1,0 +1,18 @@
+label: text image dialog
+
+form:
+  properties:
+
+    headline: 
+      $type: textField
+      label: Headline
+      description: Enter a headline
+    text: 
+      $type: richTextField
+      label: Text
+      description: Enter your text
+    imageLink:
+      $type: damLinkField
+      label: Image Link
+      description: Choose an Image from the Assets App.  
+

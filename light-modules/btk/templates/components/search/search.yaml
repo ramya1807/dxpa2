@@ -1,0 +1,3 @@
+title: Search
+renderType: freemarker
+templateScript: /btk/templates/components/search/search.ftl

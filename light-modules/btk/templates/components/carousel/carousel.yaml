@@ -1,0 +1,9 @@
+title: Carousel
+renderType: freemarker
+templateScript: /btk/templates/components/carousel/carousel.ftl
+areas:
+  items:
+    templateScript: /btk/templates/areas/carousel-items.ftl
+    availableComponents:
+      item:
+        id: btk:components/carousel/item

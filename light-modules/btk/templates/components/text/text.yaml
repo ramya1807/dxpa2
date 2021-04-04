@@ -1,0 +1,4 @@
+title: Text
+renderType: freemarker
+templateScript: /btk/templates/components/text/text.ftl
+dialog: btk:components/text

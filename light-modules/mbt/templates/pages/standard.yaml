@@ -1,0 +1,8 @@
+templateScript: /mbt/templates/pages/main.ftl
+renderType: freemarker
+dialog: mbt:pages/home
+visible: true
+areas:
+  !include:/mbt/includes/areas/common-areas.yaml
+  navigation:
+    editable: false

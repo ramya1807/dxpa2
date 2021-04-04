@@ -1,0 +1,24 @@
+form:
+  tabs:
+    - name: tabMain
+      fields:
+        - !include:/mbt/includes/dialogs/fields/titleField.yaml
+        - !include:/mbt/includes/dialogs/fields/textField.yaml
+        - !include:/mbt/includes/dialogs/fields/imageField.yaml
+    - name: tabStyle
+      label: tabs.tabStyle
+      fields:
+        - !include:/mbt/includes/dialogs/fields/colorField.yaml
+          name: titleColor
+        - !include:/mbt/includes/dialogs/fields/colorField.yaml
+          name: titleBgColor
+
+        - !include:/mbt/includes/dialogs/fields/colorField.yaml
+          name: textColor
+        - !include:/mbt/includes/dialogs/fields/colorField.yaml
+          name: textBgColor
+
+
+actions:
+  !include:/mbt/includes/dialogs/defaultActions.yaml
+

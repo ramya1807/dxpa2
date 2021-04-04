@@ -1,0 +1,4 @@
+title: Heading
+renderType: freemarker
+templateScript: /btk/templates/components/heading/heading.ftl
+dialog: btk:components/heading

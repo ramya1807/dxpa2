@@ -1,0 +1,38 @@
+title: Row
+renderType: freemarker
+templateScript: /btk/templates/components/row/row.ftl
+dialog: btk:components/row
+areas:
+  col-1: &col
+    templateScript: /btk/templates/areas/col.ftl
+    availableComponents:
+      row:
+        id: btk:components/row/row
+      heading:
+        id: btk:components/heading/heading
+      text:
+        id: btk:components/text/text
+      button:
+        id: btk:components/button/button
+      divider:
+        id: btk:components/divider/divider
+      image:
+        id: btk:components/image/image
+      accordion:
+        id: btk:components/accordion/accordion
+      card:
+        id: btk:components/card/card
+      modal:
+        id: btk:components/modal/modal
+
+  col-2: *col
+  col-3: *col
+  col-4: *col
+  col-5: *col
+  col-6: *col
+  col-7: *col
+  col-8: *col
+  col-9: *col
+  col-10: *col
+  col-11: *col
+  col-12: *col

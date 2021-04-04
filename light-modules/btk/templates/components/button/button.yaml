@@ -1,0 +1,4 @@
+title: Button
+renderType: freemarker
+templateScript: /btk/templates/components/button/button.ftl
+dialog: btk:components/button

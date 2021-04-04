@@ -1,0 +1,9 @@
+name: image
+fieldType: link
+label: Image
+targetWorkspace: dam
+appName: assets
+identifierToPathConverter:
+  class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+contentPreviewDefinition:
+  contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent

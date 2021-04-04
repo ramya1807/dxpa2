@@ -1,0 +1,28 @@
+form:
+  label: Image
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+        - !include:/btk/includes/dialogs/image.yaml
+    - name: tabStyle
+      label: Style
+      fields:
+        - name: style
+          fieldType: optionGroup
+          label: Style
+          options:
+            - name: none
+              label: None
+              value: none
+              selected: true
+            - name: thumbnail
+              label: Thumbnail
+              value: img-thumbnail
+            - name: rounded
+              label: Rounded
+              value: rounded
+        - !include:/btk/includes/dialogs/class.yaml
+        - !include:/btk/includes/dialogs/css.yaml
+
+actions: !include:/btk/includes/dialogs/actions.yaml

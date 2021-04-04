@@ -1,0 +1,15 @@
+title: Search [#btk]
+renderType: freemarker
+templateScript: /btk/templates/pages/index.ftl
+dialog: btk:pages/index
+visible: true
+areas:
+  breadcrumb: !include:/btk/includes/areas/breadcrumb.yaml
+  main:
+    autoGeneration:
+      content:
+        search:
+          nodeType: mgnl:component
+          templateId: btk:components/search/search
+      generatorClass: info.magnolia.rendering.generator.CopyGenerator
+  footer: !include:/btk/includes/areas/footer.yaml

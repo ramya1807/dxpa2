@@ -1,0 +1,10 @@
+title: Accordion
+renderType: freemarker
+templateScript: /btk/templates/components/accordion/accordion.ftl
+dialog: btk:components/accordion/accordion
+areas:
+  items:
+    templateScript: /btk/templates/areas/accordion-items.ftl
+    availableComponents:
+      item:
+        id: btk:components/accordion/item

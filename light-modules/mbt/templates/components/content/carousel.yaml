@@ -1,0 +1,11 @@
+templateScript: /mbt/templates/components/content/carousel.ftl
+dialog: mbt:components/content/carousel
+renderType: freemarker
+areas:
+
+  slides:
+    templateScript: /mbt/templates/components/content/carouselSlides.ftl
+    availableComponents:
+      slides:
+        id: mbt:components/content/slide
+        

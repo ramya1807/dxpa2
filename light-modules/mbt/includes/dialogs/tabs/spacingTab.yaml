@@ -1,0 +1,16 @@
+name: tabSpacing
+label: tabs.spacing
+fields:
+  - !include:/mbt/includes/dialogs/fields/spacingField.yaml
+    name: marginTop
+    label: field.marginTop
+  - !include:/mbt/includes/dialogs/fields/spacingField.yaml
+    name: marginBottom
+    label: field.marginBottom
+  - name: borderTop
+    fieldType: checkbox
+  - name: borderBottom
+    fieldType: checkbox
+
+
+

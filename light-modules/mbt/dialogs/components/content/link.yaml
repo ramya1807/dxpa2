@@ -1,0 +1,12 @@
+form:
+  tabs:
+    - name: titletext
+      fields:
+        - !include:/mbt/includes/dialogs/fields/linkSwitchableField.yaml
+        - !include:/mbt/includes/dialogs/fields/linkTextField.yaml
+
+
+
+
+actions:
+  !include:/mbt/includes/dialogs/defaultActions.yaml
