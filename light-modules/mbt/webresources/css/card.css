@@ -1,0 +1,126 @@
+/* Card 2 */
+
+.card {
+    position: relative;
+    width: 360px;
+    height: 528px;
+}
+
+
+/* Main Shadow */
+
+.card>.shadow {
+    filter: drop-shadow(0px 24px 64px rgba(0, 0, 0, 0.04));
+}
+
+
+/* Card background */
+
+.card>.cardbg {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    /* White */
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+
+/* Button */
+
+.card>.button {
+    position: absolute;
+    width: 114px;
+    height: 44px;
+    right: 24px;
+    bottom: 30px;
+}
+
+
+/* Button background */
+
+.button>.buttonbg {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #7A8FFF;
+    border-radius: 4px;
+}
+
+
+/* Click Here */
+
+.button>.click {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 20.45%;
+    bottom: 20.45%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 179% */
+    text-align: center;
+    letter-spacing: 0.18em;
+    /* White */
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+
+/* Pasta stuffed with beef and pork topped with your choice of cream sauce with bacon, bolognese or marinara sauce. */
+
+.card>.header {
+    position: absolute;
+    width: 312px;
+    height: 25px;
+    left: 24px;
+    top: 297px;
+    /* Open Sans / 16 sp • Body 2 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height, or 156% */
+    /* Additional text */
+    color: #6E798C;
+}
+
+
+/* Card Content */
+
+.card>.content {
+    position: absolute;
+    width: 198px;
+    height: 25px;
+    left: 24px;
+    top: 248px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 25px;
+    /* identical to box height, or 104% */
+    letter-spacing: 0.01em;
+    color: #7A8FFF;
+}
+
+
+/* Tortellini Photo */
+
+.card>.photo {
+    position: absolute;
+    height: 216px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: url(photo-1531089073319-17596b946d42.jpg), url(photo-1485962398705-ef6a13c41e8f.jpg), url(photo-1506354666786-959d6d497f1a.jpg), #C4C4C4;
+    border-radius: 16px 16px 0px 0px;
+}
