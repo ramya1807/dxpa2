@@ -13,6 +13,7 @@ form:
               value: ""
               label: No container
               selected: true
+        - !include:/mbt/includes/dialogs/fields/themeField.yaml
     - name: tabBadge
       fields:
         - !include:/mbt/includes/dialogs/fields/titleField.yaml

@@ -2,15 +2,15 @@
 
 [@assignLink content "linkType"/]
 <style>
-.theme1{
+a.theme1{
     background-color: red;
 }
 
-.theme2{
+a.theme2{
     background-color: blue;
 }
 
-.theme3{
+a.theme3{
     background-color: green;
 }
 </style>
