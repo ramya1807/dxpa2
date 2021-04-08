@@ -124,3 +124,154 @@
     background: url(photo-1531089073319-17596b946d42.jpg), url(photo-1485962398705-ef6a13c41e8f.jpg), url(photo-1506354666786-959d6d497f1a.jpg), #C4C4C4;
     border-radius: 16px 16px 0px 0px;
 }
+
+
+/* Card 4 */
+
+.card2 {
+    position: relative;
+    width: 416px;
+    height: 525px;
+}
+
+
+/* Card background */
+
+.card2>.card2bg {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    /* White */
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+
+/* Button */
+
+.card2>.button2 {
+    position: absolute;
+    height: 67px;
+    left: 64px;
+    right: 64px;
+    bottom: 50px;
+}
+
+
+/* Button background */
+
+.button2>.button2bg {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #0A142F;
+    border-radius: 4px;
+}
+
+
+/* BUY NOW */
+
+.button2>.button2text {
+    position: absolute;
+    left: 19.44%;
+    right: 19.44%;
+    top: 29.85%;
+    bottom: 31.34%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    /* or 147% */
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+
+/* Everyday Fashion reviews Unlimited Sale compilations Up to 3 Personal consults */
+
+.card2>.card2text {
+    position: absolute;
+    height: 100px;
+    left: 72px;
+    right: 72px;
+    top: 242px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    text-align: center;
+    /* Heading text */
+    color: #081F32;
+}
+
+
+/* MEDIUM */
+
+.card2>.card2header {
+    position: absolute;
+    width: 89px;
+    height: 25px;
+    left: calc(50% - 89px/2 + 0.5px);
+    top: 130px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height, or 147% */
+    letter-spacing: 0.2em;
+    /* Heading text */
+    color: #081F32;
+}
+
+
+/* Best offer */
+
+.card2>.smallbutton2 {
+    position: absolute;
+    width: 99px;
+    height: 25px;
+    right: 24px;
+    top: 24px;
+}
+
+
+/* Background */
+
+.card2>.button2bg {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 4%;
+    background: #0A142F;
+    border-radius: 4px;
+}
+
+
+/* BEST OFFER */
+
+.card2>.smallbutton2content {
+    position: absolute;
+    left: 12.12%;
+    right: 11.11%;
+    top: 0%;
+    bottom: 0%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 25px;
+    /* identical to box height, or 250% */
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+}
