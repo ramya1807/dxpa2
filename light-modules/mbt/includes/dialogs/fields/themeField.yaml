@@ -1,0 +1,15 @@
+name: theme
+fieldType: select
+sortOptions: false
+class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+options:
+  - name: theme1
+    value: theme1
+    label: theme1
+    selected: true
+  - name: theme2
+    value: theme2
+    label: theme2
+  - name: theme3
+    value: theme3
+    label: theme3

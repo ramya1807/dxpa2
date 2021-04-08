@@ -1,3 +1,4 @@
+[#assign ancestors = cmsfn.ancestors(content, "mgnl:page")]
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,13 +6,10 @@
         rel="stylesheet">
   <style type="text/css">
   [#include "footer.css"]
-  </style>
-  <title>Document</title>
-</head>
-<body>
-  <div class="v2_29">
+  <div class="footer ${fixedTop?then("pb-5", "")}"">
     <div class="v2_30"></div>
     <div class="v2_31">
+      <p>TEST</p>
       <span class="v2_32">© 2021 ${content.name!} Pte Ltd | All Rights Reserved</span>
       <div class="v2_33">
         <span class="v2_34">${content.title!}</span><span class="v2_35">${cmsfn.decode(content).title1text}</span>

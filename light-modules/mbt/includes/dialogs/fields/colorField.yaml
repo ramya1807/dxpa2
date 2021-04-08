@@ -13,7 +13,7 @@ options:
   - name: secondary
     value: secondary
     label: field.color.secondary
-  - name: success
+  - name: successd
     label: field.color.success
     value: success
   - name: danger

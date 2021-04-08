@@ -34,7 +34,9 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item ${navfn.isActive(content, siteRoot)?then("active", "")}">
+                [#if siteRoot.title?has_content]
                 <a class="nav-link" href="${cmsfn.link(siteRoot)}">${siteRoot.title} <span class="sr-only"></span></a>
+                [/#if]
             </li>
             [#list navPages as page]
                 [#assign isActive = navfn.isActive(content, page) || navfn.isOpen(content, page)/]

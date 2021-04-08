@@ -13,6 +13,12 @@ breadcrumb:
   createAreaNode: false
   templateScript: /mbt/templates/pages/areas/breadcrumb.ftl
   dialog: mbt:pages/areas/breadcrumbs
+footer:
+  type: noComponent
+  enabled: false
+  createAreaNode: false
+  templateScript: /mbt/templates/pages/areas/footer.ftl
+  dialog: mbt:pages/areas/footer
 content:
   type: list
   availableComponents:

@@ -7,6 +7,8 @@ form:
           label: field.link.color
           name: buttonColor
         - !include:/mbt/includes/dialogs/fields/linkSwitchableField.yaml
+        - !include:/mbt/includes/dialogs/fields/themeField.yaml
+          name: theme
        
 
 

@@ -4,5 +4,5 @@ dialog: mbt:pages/home
 visible: true
 areas:
   !include:/mbt/includes/areas/common-areas.yaml
-  navigation:
+  footer:
     editable: false

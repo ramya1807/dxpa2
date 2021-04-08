@@ -11,8 +11,12 @@
     [@cms.area name="htmlHeader"/]
   </head>
     <body>
+    [@cms.area name="footer"/]
     [@cms.area name="navigation"/]
     [@cms.area name="breadcrumb"/]
+    
     [@cms.area name="content"/]
+    
   </body>
+    
 </html>

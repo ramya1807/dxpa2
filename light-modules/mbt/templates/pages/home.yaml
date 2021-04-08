@@ -5,5 +5,5 @@ visible: true
 type: home
 areas:
   !include:/mbt/includes/areas/common-areas.yaml
-  breadcrumb:
-    enabled: false
+  footer:
+    enable: false
