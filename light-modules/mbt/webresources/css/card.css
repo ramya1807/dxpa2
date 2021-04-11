@@ -41,7 +41,7 @@
 
 /* Button background */
 
-.button>.buttonbg {
+.card>.button>.buttonbg {
     position: absolute;
     left: 0%;
     right: 0%;
@@ -54,7 +54,7 @@
 
 /* Click Here */
 
-.button>.click {
+.card>.button>.click {
     position: absolute;
     left: 0%;
     right: 0%;
@@ -162,7 +162,7 @@
 
 /* Button background */
 
-.button2>.button2bg {
+.card2>.button2>.button2bg {
     position: absolute;
     left: 0%;
     right: 0%;
@@ -175,7 +175,7 @@
 
 /* BUY NOW */
 
-.button2>.button2text {
+.card2>.button2>.button2text {
     position: absolute;
     left: 19.44%;
     right: 19.44%;
